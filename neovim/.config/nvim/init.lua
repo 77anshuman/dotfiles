@@ -16,5 +16,3 @@ require('compe-config')
 require('lualinesetup')
 require('plugins-settings')
 require('_telescope')
-
-vim.cmd('LspStart')
