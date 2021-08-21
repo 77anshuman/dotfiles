@@ -13,6 +13,7 @@ require("lualine").setup {
       },
       { "filetype", icons_enabled = false },
     },
+    lualine_z = { require('lsp-status').status }
   },
   inactive_sections = {
     lualine_a = {},
